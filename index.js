@@ -319,7 +319,7 @@ async function starts() {
 					break
 			case 'creator':
                  client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                 client.sendMessage(from, 'Nih Nomor Owner/Creator T027BOT',MessageType.text, { quoted: mek} )
+                 client.sendMessage(from, 'Nih Nomor Owner/Creator RIBASBOT',MessageType.text, { quoted: mek} )
                  break
                  case 'fitnah':	
 				case 'fake':          
@@ -736,7 +736,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6287775452636@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6282193030283@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
@@ -1445,7 +1445,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 T027BOT 〙✪══', members_id, true)
+					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 RIBASBOT 〙✪══', members_id, true)
 					break
 				case 'clearall':
 					if (!isOwner) return reply('Kamu siapa?')
